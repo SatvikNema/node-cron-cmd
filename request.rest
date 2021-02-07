@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/cron
+Content-Type: application/json
+
+{
+    "time": "LOL",
+    "what": "idk yet"
+}
+###
+GET http://localhost:3000/api/cron
